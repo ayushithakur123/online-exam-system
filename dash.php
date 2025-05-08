@@ -35,9 +35,11 @@ $(function () {
 <div class="header">
 <div class="row">
 <div class="col-lg-6">
-<span class="logo"> Exam System</span></div>
+
+<span class="logo">Exam System</span></div>
+
 <?php
- include_once 'dbConnection.php';
+include_once 'dbConnection.php';
 session_start();
 $email=$_SESSION['email'];
   if(!(isset($_SESSION['email']))){
