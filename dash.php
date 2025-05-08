@@ -36,7 +36,7 @@ $(function () {
 <div class="row">
 <div class="col-lg-6">
 
-<span class="logo">Exam System</span></div>
+<span class="logo">Online Exam System</span></div>
 
 <?php
 include_once 'dbConnection.php';
