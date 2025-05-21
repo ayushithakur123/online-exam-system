@@ -107,7 +107,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
   <form class="form-horizontal" name="form" action="sign.php?q=account.php" onSubmit="return validateForm()" method="POST">
 <fieldset>
 
-<p class="text-center"><b>Registered</b></p>
+<p class="text-center"><b>Register Now</b></p>
 
 <!-- Text input-->
 <div class="form-group">
